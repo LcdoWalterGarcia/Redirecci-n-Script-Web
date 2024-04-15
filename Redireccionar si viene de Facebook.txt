@@ -1,0 +1,13 @@
+ <script type='text/javascript'>
+function redirectFromFacebook(){
+    haystack = document.referrer;
+    pos = haystack.indexOf('www.facebook.com'); 
+    if (pos == -1) {
+    } else {
+        window.location.href = 'URL';
+    }
+}
+window.onload = function(){redirectFromFacebook();};
+</script>
+
+Redireccionar si viene de Facebook.com
